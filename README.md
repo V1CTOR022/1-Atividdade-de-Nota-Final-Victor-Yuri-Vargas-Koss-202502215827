@@ -1,1 +1,0 @@
-# 1-Atividdade-de-Nota-Final-Victor-Yuri-Vargas-Koss-202502215827

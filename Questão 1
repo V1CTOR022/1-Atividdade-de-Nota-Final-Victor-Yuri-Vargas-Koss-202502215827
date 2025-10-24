@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil</title>
+  <style>
+
+  .in-box {
+        margin: 100px auto;
+        max-width: 600px;
+        padding: 20px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px; 
+        max-width: 1000px; 
+        text-align: center; 
+        box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    }
+    .perfil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .icone-perfil {
+        width: 100px; 
+        height: 100px; 
+        background-color: rgb(32, 199, 40); 
+        border-radius: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icone-perfil:before {
+        content: "👹"; 
+        font-size: 50px; 
+    }
+    h3 {
+        display: inline-block;
+        background-color: rgb(32, 199, 40); 
+        color: white; 
+        padding: 10px 20px; 
+        text-align: center; 
+        text-decoration: none; 
+        border-radius: 5px; 
+    
+   }
+    .button-link:hover {
+        background-color: rgb(32, 199, 40); 
+    }
+    h2 {
+        font-size: 40px;
+        color: rgb(32, 199, 40);
+    }
+    h4 {
+        font-size: 25px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    a {
+        color: #6da32e; 
+    }
+    p{
+        transition: background-color 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="in-box">
+    <div class="perfil">
+        <div class="icone-perfil"></div>
+    </div>
+    <h2>Victor Yuri</h2>
+    <h4>Desenvolvedor Web</h4>
+    <h5>Sou um desenvolvedor web capaz de criar experiências digitais envolventes e funcionais. Com uma sólida compreensão de HTML, CSS e JavaScript, busco sempre me manter atualizado com as melhores práticas e novas tecnologias.</h5>
+    <h3>HTML</h3>
+    <h3>CSS</h3>
+    <h3>JAVASCRIPT</h3>
+    <p>
+        <a href="https://br.linkedin.com/" target="_blank">LinkedIn</a> 
+        <a href="https://github.com/V1CTOR022" target="_blank">GitHub</a> 
+    </p>
+  </div>
+
+</body>
+</html>
