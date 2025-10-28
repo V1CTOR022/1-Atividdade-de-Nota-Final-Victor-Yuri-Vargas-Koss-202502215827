@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questão 3</title>
+  <style>
+     body {
+      background-color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      transition: background-color 0.5s;
+    }
+    
+     botao {
+      padding: 20px 40px;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s;
+      background-color: #333;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <botao onclick="cor()">Mudar a Cor</botao>
+
+  <script>
+    function cor() {
+      const cores = ['pink', 'red', 'yellow', 'blue', 'green', 'black', 'orange', 'purple', 'cyan'];
+      const aleatorio = cores[Math.floor(Math.random() * cores.length)];
+      document.body.style.backgroundColor = aleatorio;
+    }
+  </script>
+
+</body>
+</html>
