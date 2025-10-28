@@ -15,35 +15,35 @@
     }
 
     .quadrado {
-    background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
   padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-   text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
     }
 
     input {
   margin: 10px;
-     padding: 5px;
-   width: 100px;
-      font-size: 16px;
+  padding: 5px;
+  width: 100px;
+  font-size: 16px;
     }
 
-    button {
+    botao {
    padding: 4px 9px;
-      background-color: #ff0000;
-  border: none;
-    color: white;
+   background-color: #ff0000;
+   border: none;
+   color: white;
     }
 
-    button:hover {
-      background-color: #02356e;
+    botao:hover {
+    background-color: #02356e;
     }
 
     p {
-     margin-top: 15px;
-   font-size: 18px;
-     font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
     }
   </style>
 
